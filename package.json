@@ -1,6 +1,8 @@
 {
   "name": "react-burger",
   "version": "0.1.0",
+  "version": "0.1.0",
+  "homepage": "https://lelya.github.io/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.0",
@@ -30,6 +32,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -59,6 +63,7 @@
     "@types/uuid": "^9.0.0",
     "cypress": "^12.3.0",
     "fetch-mock": "^9.11.0",
+    "gh-pages": "^5.0.0",
     "redux-mock-store": "^1.5.4"
   }
 }

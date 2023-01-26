@@ -13,9 +13,8 @@ import { v4 as uuidv4 } from 'uuid';
 import {useHistory} from "react-router-dom";
 import {
     addBunToConstructorItemAction,
-    addIngredientToConstructorItemAction, clearConstructorItemAction, deleteIngredientToConstructorItemAction
+    addIngredientToConstructorItemAction, clearConstructorItemAction,
 } from "../../services/actions/ingredient-actions";
-import styles from "../../pages/pages.module.css";
 
 const BurgerConstructor: React.FC = () => {
 
